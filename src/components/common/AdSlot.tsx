@@ -73,7 +73,7 @@ export const AdSlot: React.FC<AdSlotProps> = ({
                 : '90px',
           }}
           data-ad-client="ca-pub-7946949899642195"
-          data-ad-slot={slotId || 'auto'}
+          data-ad-slot="2101771888"
           data-ad-format="auto"
           data-full-width-responsive="true"
         />
