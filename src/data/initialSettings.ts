@@ -1,0 +1,41 @@
+import { SiteSettings } from '../types';
+
+export const INITIAL_SETTINGS: SiteSettings = {
+  siteName: 'Ponto Financeiro',
+  siteTagline: 'Educação Financeira Simples, Prática e Transparente',
+  siteDescription: 'Portal brasileiro de educação financeira para iniciantes. Aprenda a organizar seu orçamento, montar sua reserva de emergência e dar os primeiros passos em investimentos com clareza e segurança.',
+  logoUrl: '',
+  faviconUrl: '',
+  contactPhone: '11961139395',
+  contactCity: 'São Paulo - SP - Brasil',
+  contactEmail: '',
+  responsibleName: 'Equipe Ponto Financeiro',
+  responsibleBio: 'Portal independente de educação financeira sediado em São Paulo - SP, focado na disseminação de conhecimento prático sobre finanças pessoais e investimentos para o público brasileiro.',
+  socialLinks: {
+    instagram: '',
+    youtube: '',
+    telegram: '',
+    twitter: '',
+  },
+  adsConfig: {
+    enabled: true,
+    headerAd: true,
+    inArticleAd: true,
+    sidebarAd: true,
+    footerAd: true,
+    inListAd: true,
+    adSensePublisherId: '',
+    adSlotTop: '',
+    adSlotArticle: '',
+    adSlotSidebar: '',
+    adSlotFooter: '',
+  },
+  cookieSettings: {
+    bannerTitle: 'Sua privacidade é prioridade para nós',
+    bannerText: 'Utilizamos cookies essenciais e tecnologias semelhantes para garantir o correto funcionamento do site, aprimorar sua experiência de navegação e exibir conteúdos e anúncios relevantes, em conformidade com a LGPD.',
+    privacyPolicyUrl: '/politica-de-privacidade',
+    cookiePolicyUrl: '/politica-de-cookies',
+  },
+  analyticsId: '',
+  searchConsoleVerification: '',
+};
